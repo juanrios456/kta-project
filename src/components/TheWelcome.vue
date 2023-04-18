@@ -3,6 +3,7 @@ import ComputerIcon from './icons/IconComputer.vue'
 import InternetIcon from './icons/IconInternet.vue'
 import PhoneIcon from './icons/IconPhone.vue'
 import RocketIcon from './icons/IconRocket.vue'
+import Modal from './Modal.vue'
 </script>
 
 <template>
@@ -81,9 +82,9 @@ import RocketIcon from './icons/IconRocket.vue'
       </div>
       <div class="footerGridBox justify-center flex ">
         <div>
-        <p class="font-[700] text-18px">GET IN TOUCH</p>
-        <button type="button" class="footerButton text-[16px] py-[16px] font-[700] px-[32px] text-[#331B3B] bg-[#FBBF24] rounded-lg mt-5">REQUEST MORE INFORMATION</button>
-</div>
+          <p class="font-[700] text-18px">GET IN TOUCH</p>
+          <Modal/>
+        </div>
       </div>
       <div class="footerGridBox3"></div>
     </div>
